@@ -5,7 +5,7 @@ are ordered by hue, and the distance from the center indicates a point's
 distance from it's correct position. The original idea for this
 animation [comes from w0rthy][orig].
 
-To create a video, pope standard output into a video encoder:
+To create a video, pipe standard output into a video encoder:
 
     $ ./sort | x264 --fps 60 -o video.mp4 --input-res 800x800 /dev/stdin
 
